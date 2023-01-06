@@ -79,28 +79,55 @@ main {
   text-align: center;
 }
 .section-title {
-  
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 35px;
+  text-align: center;
 }
 .section-description {
   font-size: 18px;
-  
+
   color: #757575;
   margin-bottom: 30px;
 }
 .about-info-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .about .info-title {
-    font-weight: 400;
-    font-size: 20px;
-    color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
 }
 .about .info-description {
-    font-weight: 700;
-    font-size: 20px;
-    color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* What I do styles */
+.what-i-do {
+  margin-top: 130px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
 }
