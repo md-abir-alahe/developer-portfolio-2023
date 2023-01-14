@@ -108,6 +108,7 @@ main {
 /* What I do styles */
 .what-i-do {
   margin-top: 130px;
+  margin-bottom: 130px;
 }
 .skills-container {
   display: flex;
@@ -130,4 +131,59 @@ main {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
+}
+
+/* Resume Styles */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume .section-title{
+  margin-bottom: 60px;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume .description {
+  ont-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+.resume-button {
+  text-align: center;
+}
+/* contact styles */
+.contact {
+  margin-top: 130px;
+  display: flex;
+  gap: 100px;
+  background-color: #FFF8F3;
+  padding: 130px 220px;
+}
+.contact .section-title{
+  text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.contact a{
+  text-decoration: none;
 }
