@@ -142,7 +142,7 @@ main {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.resume .section-title{
+.resume .section-title {
   margin-bottom: 60px;
 }
 .resume .title {
@@ -172,18 +172,63 @@ main {
   margin-top: 130px;
   display: flex;
   gap: 100px;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   padding: 130px 220px;
 }
-.contact .section-title{
+.contact .section-title {
   text-align: left;
 }
-.contact input[type="text"], input[type="email"], textarea {
+.contact input[type="text"],
+input[type="email"],
+textarea {
   margin-bottom: 24px;
   border: 0;
   width: 100%;
   padding: 18px 30px;
 }
-.contact a{
+.contact a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header{
+    background-image: none;
+ }
+  .banner, 
+  .skills-container, 
+  .resume-content, 
+  .about-info-container, 
+  .contact,
+  nav{
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+.banner {
+  margin: 0 20px;
+}
+.banner img {
+  width: 100%;
+}
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 10px;
+  }
+  .about, .contact {
+    padding: 40px 20px;
+  }
+  .contact input[type="text"], input[type="email"], textarea {
+    padding: 18px 0 18px 10px;
+  }
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+}
+
+.hide {
+  display: none;
 }
